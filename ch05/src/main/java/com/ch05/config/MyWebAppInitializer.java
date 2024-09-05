@@ -25,4 +25,8 @@ public class MyWebAppInitializer implements WebApplicationInitializer {
         servletRegistration.setLoadOnStartup(1);
         servletRegistration.addMapping("/");
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 309b2fb166e05b453e73b64c702d5fe446f7bdc0

@@ -1,4 +1,5 @@
 <html>
+<<<<<<< HEAD
 <head>
     <meta charset="UTF-8"/>
     <title>index</title>
@@ -21,3 +22,19 @@
 
 </body>
 </html>
+=======
+    <head>
+        <meta charset="UTF-8"/>
+        <title>index</title>
+        <!--
+            5장 MyBatis 실습
+
+        -->
+    </head>
+<body>
+    <h2>ch05.MyBatis</h2>
+
+    <a href="/ch05/user2/list">user2</a>
+</body>
+</html>
+>>>>>>> 309b2fb166e05b453e73b64c702d5fe446f7bdc0

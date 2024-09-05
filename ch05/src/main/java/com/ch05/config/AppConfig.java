@@ -7,7 +7,10 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.ViewResolverRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 309b2fb166e05b453e73b64c702d5fe446f7bdc0
 @Configuration
 @EnableWebMvc
 @ComponentScan(basePackages = {"com.ch05"})

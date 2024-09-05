@@ -1,17 +1,11 @@
 package com.ch05.dto;
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 309b2fb166e05b453e73b64c702d5fe446f7bdc0
-public class User1DTO {
+public class User3DTO {
 
     private String uid;
     private String name;
     private String birth;
-    private String hp;
-    private int age;
-
+    private String addr;
 
     public String getUid() {
         return uid;
@@ -37,34 +31,22 @@ public class User1DTO {
         this.birth = birth;
     }
 
-    public String getHp() {
-        return hp;
+    public String getAddr() {
+        return addr;
     }
 
-    public void setHp(String hp) {
-        this.hp = hp;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
+    public void setAddr(String addr) {
+        this.addr = addr;
     }
 
     @Override
     public String toString() {
-        return "User1DTO{" +
+        return "User2DTO{" +
                 "uid='" + uid + '\'' +
                 ", name='" + name + '\'' +
                 ", birth='" + birth + '\'' +
-                ", hp='" + hp + '\'' +
-                ", age=" + age +
+                ", addr='" + addr + '\'' +
                 '}';
     }
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> 309b2fb166e05b453e73b64c702d5fe446f7bdc0
