@@ -5,6 +5,7 @@ import com.ch07.entity.User1;
 import com.ch07.repository.User1Repository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
@@ -12,6 +13,7 @@ import java.util.stream.Collectors;
 
 import static java.util.stream.StreamSupport.stream;
 
+@Transactional
 @RequiredArgsConstructor  //생성자 주입
 @Service
 public class User1Service {

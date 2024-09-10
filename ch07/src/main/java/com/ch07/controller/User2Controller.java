@@ -44,7 +44,8 @@ public class User2Controller {
 
     @PostMapping("/user2/modify")
     public String modify(String uid, Model model) {
-        User2DTO user2DTO = user2Service.selectUser2(uid);
+        User2DTO user = user2Service.selectUser2(uid);
+        model.addAttribute("user", user);
         return "/user2/modify";
     }
 
